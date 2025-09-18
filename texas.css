@@ -1,10 +1,23 @@
-div.ex1 {
-  width: 165px;
+header {
+  width: 160px;
   margin: auto;
-  border: 3px solid #92ff03;
+  background-color: rgb(50, 228, 47);
+  padding: 15px;
 }
-.ex2 {
-text-align: left 150px;
+.container {
+  display: grid;
+  column-gap: 50px;
+  grid-template-columns: auto auto auto;
+  background-color: rgb(50, 228, 47);
+  padding: 10px;
+  size
+}
+.container > div {
+  background-color: #f1f1f1;
+  border: 1px solid black;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
 }
 
-/*grid container
+/*kansje bruk grid container
