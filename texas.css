@@ -1,24 +1,26 @@
 header {
   width: 160px;
   margin: auto;
-  background-color: rgb(236, 98, 0);
+  background-color: rgb(255, 255, 255);
   padding: 15px;
+  border: 7px solid black;
 }
 .container {
   display: grid;
   column-gap: 50px;
   row-gap: 20px;
   grid-template-columns: 1fr 1fr 1fr;
-  background-color: rgb(236, 98, 0);
+  /*background-color: rgb(31, 0, 236);*/
   padding: 10px;
   size
 }
 .container > div {
   background-color: #f1f1f1;
-  border: 1px solid black;
+  border: 7px solid black;
+  border-radius: 20px;
   padding: 20px;
   font-size: 30px;
   text-align: center;
 }
 
-/*kansje bruk grid container
+/*kansje bruk grid container*/
