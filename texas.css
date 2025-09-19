@@ -1,14 +1,15 @@
 header {
   width: 160px;
   margin: auto;
-  background-color: rgb(50, 228, 47);
+  background-color: rgb(236, 98, 0);
   padding: 15px;
 }
 .container {
   display: grid;
   column-gap: 50px;
-  grid-template-columns: auto auto auto;
-  background-color: rgb(50, 228, 47);
+  row-gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: rgb(236, 98, 0);
   padding: 10px;
   size
 }
