@@ -5,6 +5,16 @@ header {
   padding: 15px;
   border: 7px solid black;
 }
+section {
+  width: 160px;
+  text-align: center;
+  margin: auto;
+  position: relative;
+  right: 570px;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  border: 7px solid black;
+}
 .container {
   display: grid;
   column-gap: 50px;
@@ -22,7 +32,7 @@ header {
   text-align: center;
 }
 
-/*kansje bruk grid container*/
+/*mjau*/
 
 .button {
   background-color: #ffffff;
