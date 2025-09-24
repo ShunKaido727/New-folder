@@ -1,8 +1,8 @@
 header {
-  width: 160px;
+  width: 240px;
   margin: auto;
+  text-align: center;
   background-color: rgb(255, 255, 255);
-  padding: 15px;
   border: 7px solid black;
 }
 section {
@@ -30,6 +30,7 @@ section {
   padding: 20px;
   font-size: 30px;
   text-align: center;
+  color: black;
 }
 
 /*mjau*/
@@ -44,6 +45,12 @@ section {
   font-size: 33px;
   margin: 4px 2px;
   cursor: pointer;
-  -webkit-text-fill-color: black;
+  margin: 4px 2px;
+  transition-duration: 0.4s;;
+  color: black;
 }
 
+.button:hover {
+  background-color: black;
+  color: white;
+}
