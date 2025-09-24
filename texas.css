@@ -12,10 +12,9 @@ header {
   grid-template-columns: 1fr 1fr 1fr;
   /*background-color: rgb(31, 0, 236);*/
   padding: 10px;
-  size
 }
 .container > div {
-  background-color: #f1f1f1;
+  background-color: rgb(255, 255, 255);
   border: 7px solid black;
   border-radius: 20px;
   padding: 20px;
@@ -24,3 +23,17 @@ header {
 }
 
 /*kansje bruk grid container*/
+
+.button {
+  background-color: #ffffff;
+  border: 7px solid black;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  display: inline-block;
+  font-size: 33px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-text-fill-color: black;
+}
+
