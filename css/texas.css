@@ -8,6 +8,8 @@ header {
 body {
 background-image: url(../Bilder/texas-photo-watermark.jpg);
 background-size: cover;
+background-repeat: no-repeat
+height: fill
 }
 section {
   width: 160px;
