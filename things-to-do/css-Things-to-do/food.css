@@ -6,24 +6,6 @@ header {
   border: 7px solid black;
 }
 
-body {
-background-image: url(../Bilder/texas-photo-watermark.jpg);
-background-size: cover;
-background-repeat: no-repeat
-height: fill
-}
-
-section {
-  width: 160px;
-  text-align: center;
-  margin: auto;
-  position: relative;
-  right: 570px;
-  background-color: rgb(255, 255, 255);
-  padding: 10px;
-  border: 7px solid black;
-}
-
 .container {
   display: grid;
   column-gap: 50px;
@@ -40,6 +22,14 @@ section {
   font-size: 30px;
   text-align: center;
   color: black;
+}
+
+
+body {
+background-image: url(../../Bilder/austin-texas-picture.avif);
+background-size: cover;
+background-repeat: no-repeat
+height: fill
 }
 
 /*mjau*/
