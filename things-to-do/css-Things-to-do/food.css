@@ -24,6 +24,17 @@ header {
   color: black;
 }
 
+section {
+width: 160px;
+text-align: center;
+margin: auto;
+position: relative;
+right: 570px;
+background-color: rgb(255, 255, 255);
+padding: 10px;
+border: 7px solid black;
+}
+
 
 body {
 background-image: url(../../Bilder/austin-texas-picture.avif);
