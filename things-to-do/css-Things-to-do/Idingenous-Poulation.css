@@ -1,0 +1,66 @@
+header {
+  width: 240px;
+  margin: auto;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  border: 7px solid black;
+}
+
+.container {
+  display: grid;
+  column-gap: 50px;
+  row-gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  /*background-color: rgb(31, 0, 236);*/
+  padding: 10px;
+}
+.container > div {
+  background-color: rgb(255, 255, 255);
+  border: 7px solid black;
+  border-radius: 20px;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  color: black;
+}
+
+section {
+width: 160px;
+text-align: center;
+margin: auto;
+position: relative;
+right: 570px;
+background-color: rgb(255, 255, 255);
+padding: 10px;
+border: 7px solid black;
+}
+
+
+body {
+background-image: url(../../Bilder/austin-texas-picture.avif);
+background-size: cover;
+background-repeat: no-repeat
+height: fill
+}
+
+/*mjau*/
+
+.button {
+  background-color: #ffffff;
+  border: 7px solid black;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  display: inline-block;
+  font-size: 33px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin: 4px 2px;
+  transition-duration: 0.4s;;
+  color: black;
+}
+
+.button:hover {
+  background-color: black;
+  color: white;
+}
